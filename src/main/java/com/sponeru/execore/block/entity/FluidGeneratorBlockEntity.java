@@ -67,6 +67,10 @@ public class FluidGeneratorBlockEntity extends BlockEntity {
         be.tickCounter++;
         if (be.tickCounter >= 20) {
             be.tickCounter = 0;
+            if (!be.fluidToGenerate.isEmpty() && be.amount > 0) {
+                be.tank.fill(new FluidStack(be.fluidToGenerate, be.amount),
+                        IFluidHandler.FluidAction.EXECUTE);
+            }
         }
     }
 

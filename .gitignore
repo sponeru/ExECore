@@ -28,3 +28,7 @@ forge*changelog.txt
 error_log_*.txt
 deps.txt
 error_log.txt
+deps_utf8.txt
+jar_path_utf8.txt
+build_output.txt
+log.txt
