@@ -27,6 +27,10 @@ public class BlockGeneratorBlock extends Block implements EntityBlock {
         this.inventorySize = inventorySize;
     }
 
+    public String getGeneratorId() {
+        return generatorId;
+    }
+
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {

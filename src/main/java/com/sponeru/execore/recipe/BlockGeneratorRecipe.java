@@ -25,6 +25,22 @@ public class BlockGeneratorRecipe implements Recipe<Container> {
     private final Block belowBlock;
     private final String generatorId;
 
+    public Fluid getFluid1() {
+        return fluid1;
+    }
+
+    public Fluid getFluid2() {
+        return fluid2;
+    }
+
+    public Block getBelowBlock() {
+        return belowBlock;
+    }
+
+    public String getGeneratorId() {
+        return generatorId;
+    }
+
     public BlockGeneratorRecipe(ResourceLocation id, ItemStack output, Fluid fluid1, Fluid fluid2, Block belowBlock,
             String generatorId) {
         this.id = id;

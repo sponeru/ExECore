@@ -142,6 +142,7 @@ dependencies {
     implementation fg.deobf("curse.maven:rhino-416294:6186971")
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
     implementation fg.deobf("curse.maven:ex-deorum-901420:7288118")
+    implementation fg.deobf("curse.maven:jei-238222:7391695")
 
     runtimeOnly fg.deobf("curse.maven:jade-324717:6855440")
     

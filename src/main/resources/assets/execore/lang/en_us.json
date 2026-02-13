@@ -1,3 +1,5 @@
 {
-    "block.execore.water_generator": "Water Generator"
+
+    "block.execore.water_generator": "Water Generator",
+    "jei.execore.block_generator": "Block Generator"
 }
