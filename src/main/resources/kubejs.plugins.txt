@@ -1,0 +1,1 @@
+com.sponeru.execore.kubejs.ExECoreKubeJSPlugin
